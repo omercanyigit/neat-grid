@@ -1,0 +1,17 @@
+{
+  "name": "neat-grid",
+  "homepage": "https://github.com/canygt27/neat-grid",
+  "authors": [
+    "canygt27 <canygt27gmail.com>"
+  ],
+  "description": "neat grid system mixins",
+  "main": "neat-grid",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
