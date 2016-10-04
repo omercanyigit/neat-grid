@@ -1,0 +1,15 @@
+@mixin grid-utilities($relative, $padding) {
+  position: $relative;
+  padding-left: $padding;
+  padding-right: $padding;
+  float: left;
+  //display: table-cell;
+}
+
+@for $i from 1 through 12 {
+
+  .col-#{$i} {
+    @include grid-utilities($relative, $padding);
+    @include span-columns($i);
+  }
+}

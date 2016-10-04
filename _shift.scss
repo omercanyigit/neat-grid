@@ -1,0 +1,11 @@
+@mixin shift-utilities() {
+  //display: table-cell;
+}
+
+@for $i from 1 through 5 {
+
+  .shift-#{$i} {
+    @include shift-utilities();
+    @include shift($i);
+  }
+}

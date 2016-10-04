@@ -1,0 +1,17 @@
+
+.container-neat {
+  max-width: $container;
+  @include outer-container();
+}
+
+.omega {
+  @include omega();
+}
+
+.fill-parent {
+  @include fill-parent();
+}
+
+.pad {
+  @include pad();
+}
